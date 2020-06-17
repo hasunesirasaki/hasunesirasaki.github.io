@@ -5,13 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
-
-
-
-
 </head>
+
 <body>
- <div class = "container">
+ <section class = "container">
 
    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
      <h1 class="my-0 mr-md-auto font-weight-normal"><font face="Segoe Print">Portfolio</font></h1>
@@ -25,28 +22,112 @@
    </div>
 
 
+
+   <!-- About -->
+   <section class="content-section bg-light" id="about">
+     <div class="container text-center">
+       <div class="content-section-heading">
+         <h2 class="mb-5 text-dark">About</h2>
+       </div>
+       <div class="row">
+
+         <div class="col-lg-6">
+           <ul class="lead text-left mt-3 text-spacing">
+             <li>名前：白須椋介（Ryosuke Shirasu）</li>
+             <li>所属研究室：<a href= "https://www.aed-lab.net/" >AED-LAB</a></li>
+             <li>
+               学歴：東京工科大学大学院バイオ・情報メディア研究科 <br/>
+             </li>
+             <li>
+               生年月日：1996/11/21
+             </li>
+             <li>
+               その他：
+             </li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </section>
    <div class="About-header px-3 py-3 pt-md-5 pb-md-4 mx-auto ">
      <h1>About Me</h1>
-     <h2><p>私は白須椋介です</p></h2>
-     <h3><p class="lead">所属研究室</p></h3>
-     <p class="lead">AED-LAB</p>
-     <h3><p class="lead">趣味</p></h3>
+     <h2>私は白須椋介です</h2>
+     <h5>所属研究室</h5>
+     <p class="lead"><a href= "https://www.aed-lab.net/" >AED-LAB</a></p>
+
+     <h5>趣味</h5>
      <p>料理、読書</p>
-     <h3><p class="lead">所属研究室</p></h3>
+     <h5>所属研究室</h5>
 
 
    </div>
 
+   <!-- Skills -->
+   <section class="content-section bg-info text-black text-center" id="skills">
+     <div class="container">
+       <div class="content-section-heading">
+         <h2 class="mb-5">Skills</h2>
+       </div>
+       <div class="row">
+         <div class="col-lg-3 col-md-6 my-3">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-network-wired"></i>
+            </span>
+           <h4><strong>電子工作</strong></h4>
+           <p class="mb-0 text-left text-spacing">
+
+           </p>
+         </div>
+         <div class="col-lg-3 col-md-6 my-3 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-laptop-code"></i>
+            </span>
+           <h4><strong>モデリング</strong></h4>
+           <p class="mb-0 text-left text-spacing">
+
+           </p>
+         </div>
+         <div class="col-lg-3 col-md-6 my-3 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-users-cog"></i>
+            </span>
+           <h4><strong>デバイス開発</strong></h4>
+           <p class="mb-0 text-left text-spacing">
+
+           </p>
+         </div>
+         <div class="col-lg-3 col-md-6 my-3 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-user-plus"></i>
+            </span>
+           <h4><strong>ソフト開発</strong></h4>
+           <p class="mb-0 text-left text-spacing">
+
+           </p>
+         </div>
+       </div>
+
+     </div>
+   </section>
+
+
+
+   <!-- reserch -->
    <div class="About-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center ">
      <h1>Reserch</h1>
      <h2>視覚と嗅覚における味覚変容の検討</h2>
-     <img src="image/all.jpg" width="40%" height="350px" ><img src="image/WIN_20190731_17_34_36_Pro.jpg" width="40%" height="350px" >
+     <img src="image/all.jpg" width="40%" height="350px" alt = "装置全体"><img src="image/WIN_20190731_17_34_36_Pro.jpg" width="40%" height="350px" alt = "ショットグラス">
      <p class="lead">砂糖ベースのシロップで味をつけたかき氷を食べたときに他の風味を感じさせるためのシステムとデバイスを作成した．
        嗅覚が与える影響を考慮し，それに視覚情報を加えることで，味覚に対しての認識を変化させることを主としている．着色料を使用した色付けと食用の香料を含んだシロップで味わうかき氷においても視覚と嗅覚の違いで味に対する影響をもたらす．そのことから別の外部刺激で 視覚と嗅覚にアプローチすることにより，通常のかき氷を同じような変化を再現することができるのではないかと仮説をたて検証している．そのために着色料を使用した色付けと 食用の香料の代替品を用意し，嗅覚情報と視覚情報を提示するためのシステムを構築した．嗅覚面については香料の代わりとしてアロマオイル等の香りをファンを使用して鼻に伝達する．視覚面については着色料の代わりにLED光源を用いて色をつける．
        これら二つを組み合わせることで 味覚変容を実現している．</p>
+
+     <p class="mb-0 text-right text-spacing">
+       詳細はこちら→
+       <a class="btn btn-primary" href="reserch.html" role="button">VOTSENSE</a>
+     </p>
    </div>
 
-
+   <!-- Modeling -->
   　 <div class="album py-5 bg-light">
      <div class="container2">
        <div class="About-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center ">
@@ -55,7 +136,7 @@
          <div class="col-md-4">
 
            <div class="card mb-4 shadow-sm">
-             <img src="image/modeling/piano%20.png" width="100%" height="225px" >
+             <img src="image/modeling/piano%20.png" width="100%" height="225px" alt = "ピアノ">
 
              <div class="card-body">
                <p class="card-text">ピアノ</p>
@@ -73,7 +154,7 @@
          <div class="col-md-4">
 
            <div class="card mb-4 shadow-sm">
-             <img src="image/modeling/1-1.jpg"  height="225px" >
+             <img src="image/modeling/1-1.jpg"  height="225px" alt = "ペンダント">
 
              <div class="card-body">
                <p class="card-text">はちみつモチーフペンダント</p>
@@ -91,7 +172,7 @@
          <div class="col-md-4">
 
            <div class="card mb-4 shadow-sm">
-             <img src="image/modeling/lanthanum%20modek%20lotus.jpg" width="100%" height="225px" >
+             <img src="image/modeling/lanthanum%20modek%20lotus.jpg" width="100%" height="225px" alt = "ランタン">
 
              <div class="card-body">
                <p class="card-text">ランタン</p>
@@ -106,32 +187,16 @@
            </div>
          </div>
        </div>
+         <p class="mb-0 text-right text-spacing">
+           もっと一覧→
+           <a class="btn btn-success" href="modeling.html" role="button">Modeling</a>
+         </p>
 
-         <div class="row">
-         <div class="col-md-4">
-
-           <div class="card mb-4 shadow-sm">
-             <img src="image/modeling/walllump%20v4.png" width="100%" height="225px" >
-
-             <div class="card-body">
-               <p class="card-text">ウォールランプ</p>
-               <div class="d-flex justify-content-between align-items-center">
-                 <div class="btn-group">
-                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                 </div>
-                 <small class="text-muted">9 mins</small>
-               </div>
-             </div>
-           </div>
-         </div>
-
-
-
+       </div>
+     </div>
  </div>
-
  </div>
-
+ </section>
 
 
 
