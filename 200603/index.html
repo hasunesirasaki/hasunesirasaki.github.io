@@ -4,6 +4,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="stylesheets/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <meta charset="UTF-8">
@@ -13,17 +14,22 @@
 <body>
 
 <section class="container">
+  <header class="sticky-top">
 
-  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-    <h1 class="my-0 mr-md-auto font-weight-normal"><font face="Segoe Print">Portfolio</font></h1>
-    <nav class="my-2 my-md-0 mr-md-3">
-      <a class="p-2 text-dark" href="#">Home</a>
-      <a class="p-2 text-dark" href="#">about</a>
-      <a class="p-2 text-dark" href="#">research</a>
-      <a class="p-2 text-dark" href="#">work</a>
-    </nav>
 
-  </div>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <h1 class="my-0 mr-md-auto font-weight-normal">
+        <a class="headaertitle" href="index.html">Portfolio</a>
+      </h1>
+
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Home</a>
+        <a class="p-2 text-dark" href="about.html">about</a>
+        <a class="p-2 text-dark" href="#link-to-me3">research</a>
+        <a class="p-2 text-dark" href="modeling.html">work</a>
+      </nav>
+    </div>
+  </header>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <!-- インジケータの設定 -->
@@ -58,49 +64,13 @@
 
 
 
-  <!-- About -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="content-section-heading">
-        <h2 class="mb-5 text-dark">About</h2>
-      </div>
-      <div class="row">
 
-        <div class="col-lg-6">
-          <ul class="lead text-left mt-3 text-spacing">
-            <li>名前：白須椋介（Ryosuke Shirasu）</li>
-            <li>所属研究室：<a href="https://www.aed-lab.net/">AED-LAB</a></li>
-            <li>
-              学歴：東京工科大学大学院バイオ・情報メディア研究科 <br/>
-            </li>
-            <li>
-              生年月日：1996/11/21
-            </li>
-            <li>
-              その他：
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="About-header px-3 py-3 pt-md-5 pb-md-4 mx-auto ">
-    <h1>About Me</h1>
-    <h2>私は白須椋介です</h2>
-    <h5>所属研究室</h5>
-    <p class="lead"><a href="https://www.aed-lab.net/">AED-LAB</a></p>
-
-    <h5>趣味</h5>
-    <p>料理、読書</p>
-    <h5>所属研究室</h5>
-
-
-  </div>
 
   <!-- Skills -->
-  <section class="content-section bg-info text-black text-center" id="skills">
+  <section class="content-section bg-light text-black text-center" id="skills">
     <div class="container">
       <div class="content-section-heading">
+        <a id="link-to-me2" class="anchor"></a>
         <h2 class="mb-5">Skills</h2>
       </div>
       <div class="row">
@@ -148,6 +118,7 @@
 
   <!-- reserch -->
   <div class="About-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center ">
+    <a id="link-to-me3" class="anchor"></a>
     <h1>Reserch</h1>
     <h2>視覚と嗅覚における味覚変容の検討</h2>
     <img src="image/all.jpg" width="40%" height="350px" alt="装置全体" class="img-fluid"><img src="image/WIN_20190731_17_34_36_Pro.jpg"
@@ -236,6 +207,20 @@
   </div>
 </section>
 
+<footer class="text-muted ">
+  <div class="container">
+    <nav class="col-12 my-2 my-md-0 mr-md-3 border">
+      <a class="p-2 text-dark" href="index.html">Home</a>
+      <a class="p-2 text-dark" href="about.html">about</a>
+      <a class="p-2 text-dark" href="reserch.html">research</a>
+      <a class="p-2 text-dark" href="modeling.html">work</a>
+      <p class="float-right">
+        <a href="index.html">Back to top</a>
+      </p>
+    </nav>
+
+  </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

@@ -1,0 +1,19 @@
+a:hover{
+  color: skyblue;
+}
+
+.anchor {
+  display: block;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.headaertitle{
+  color: black;
+  font-family: 'Segoe Print',sans-serif;
+}
+
+
+.about {
+  font-family: "HG正楷書体-PRO"
+}
